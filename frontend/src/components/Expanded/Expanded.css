@@ -1,0 +1,62 @@
+.container{
+    width: 48rem;
+    height:30rem;
+    border: 1px solid black;
+    position: absolute;
+    /* top:10vh; */
+    background: linear-gradient(to bottom, #ba8b02, #181818);
+    z-index: 1;
+}
+
+.boxx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.701);
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    left:-0.5rem
+}
+
+.tooltip{
+   
+  width: 7rem;
+  background-color: rgba(0, 0, 0, 0.876);
+  color: #ffffff;
+  text-align:center;
+  border-radius: 6px;
+  padding: 5px 0px;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 5;
+  left:50%
+}
+.tooltip>div{
+    width:15px;
+    height:15px;
+    border-radius: 50%;
+    position: relative;
+    top:18px;
+    left:20px;
+    
+    
+}
+
+@media only screen and (max-width:520px){
+.container{
+    width:95%;
+    height:35%;
+}
+
+.graph{
+    width:95%;
+   
+}
+
+}

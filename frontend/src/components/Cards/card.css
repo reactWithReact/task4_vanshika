@@ -1,0 +1,89 @@
+.box{
+    width:30rem;
+    border: 1px solid black;
+    height: 15rem;
+    padding-top:1rem;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 20px;
+    background:linear-gradient(to bottom, #ba8b02, #181818);
+   margin: auto;
+}
+.box:hover{
+    transform: scale(1.1,1.1);
+    transition: all 0.5s;
+    box-shadow: rgba(93, 91, 91, 0.3) 0px 19px 38px, rgba(75, 75, 75, 0.22) 0px 15px 12px;
+}
+.bar-value{
+    display: flex;
+    justify-content: space-around;
+    
+    width: 15rem;
+    height: 5rem;
+    
+}
+.none{
+    visibility: hidden;
+}
+
+.CircularProgressbar {
+    width:auto !important;
+}
+.CircularProgressbar-path {
+    stroke: rgb(0, 0, 0) !important;
+    
+}
+.CircularProgressbar-trail {
+      
+    stroke: rgb(255, 255, 255) !important;
+  }
+.cards{
+   
+    margin:30px auto;
+    
+    
+}
+
+@media only screen and (max-width:1250px){
+
+    .cards{
+        width:75%;
+       
+    }
+}
+@media only screen and (max-width:1000px){
+    .cards{
+        display: block;
+        
+       
+        
+        margin: auto ;
+    }
+    .box{
+        width:70%;
+        margin: 1rem auto;
+        height:15rem;
+    }
+    .bar-value{
+        
+        width: 100%;
+       
+        
+    }
+}
+
+@media only screen and (max-width:450px){
+    .cards{
+        width:90%;
+    }
+
+    .box{
+        width:100%;
+    }
+    
+}
